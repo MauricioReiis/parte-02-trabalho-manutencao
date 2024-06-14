@@ -43,7 +43,7 @@ public class Relatorio implements Serializable{
     private FacesContext context;
     private ByteArrayOutputStream baos;
     private InputStream stream;
-    private Connection con;
+    private transient Connection con;
 
     public Relatorio() {
         this.context = FacesContext.getCurrentInstance();
