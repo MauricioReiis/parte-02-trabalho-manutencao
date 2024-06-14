@@ -9,6 +9,8 @@ public class LogPhaseListener implements PhaseListener {
     private static final long serialVersionUID = 1L;
 
     public void afterPhase(PhaseEvent arg0) {
+        // lançamos uma exceção.
+         throw new UnsupportedOperationException("Not supported yet.");
     }
 
     public void beforePhase(PhaseEvent event) {

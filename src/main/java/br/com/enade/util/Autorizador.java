@@ -38,6 +38,8 @@ public class Autorizador implements PhaseListener {
 	}
 
 	public void beforePhase(PhaseEvent event) {
+		// lançamos uma exceção.
+		throw new UnsupportedOperationException("Not supported yet.");
 	}
 
 	public PhaseId getPhaseId() {
